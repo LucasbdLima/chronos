@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Source Code Pro", monospace;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.head{
+    background-color: #EAEAEA;
+}
+
+#watermark{
+    width: 150px;
+    height: 150px;
+}
+
+#chronos-name{
+    margin-left: 370px;
+    margin-bottom: 30px;
+    width: 450px;
+    height: 100px;
+}
+
+.main{
+    background-color: #000000;
+    padding: 180px;
+}
+
+h1{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.footer{
+    background-color: #EAEAEA;
+    padding: 15px;
+}
+
+#instagram{
+    width: 40px;
+    height: 40px;
+    margin-left: 686px;
+}
+
+#github{
+    width: 40px;
+    height: 40px;
+}
+
+p{
+    margin-left: 615px;
+}
+
+.number{
+    background-color: #ffffff;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 8px;
+    margin-left: 530px;
+    position: relative;
+    top: -120px;
+}
+
+.buttons{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 410px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.buttons:hover{
+    opacity: 0.6;
+}
+
+.buttons:active{
+    opacity: 0.3;
+}
